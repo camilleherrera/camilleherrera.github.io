@@ -691,6 +691,12 @@
         right: 10%;
     } */
             }
+
+            @media(max-width: 900px) {
+            .home__img {
+                    display: none;
+                }
+            }
             
             @media(max-width: 767px) {
                 .home {
@@ -703,9 +709,6 @@
                 }
                 .home__desc {
                     font-size: var(--h2-small-font-size);
-                }
-                .home__img {
-                    display: none;
                 }
                 .skills__container {
                     row-gap: 0rem;
